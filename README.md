@@ -1,6 +1,6 @@
 # Dragonfly Metadata to JSON converter
 
-Converts metadata files from the Andoir Dragonfly to JSON.
+Converts metadata files from the Andor Dragonfly to JSON.
 
 ## Usage
 ```bash
