@@ -32,7 +32,7 @@ SOFTWARE.
 
 using json = nlohmann::json;
 
-static std::regex regex_value("^\\s*(\\w+)=(.*)$", std::regex_constants::ECMAScript);
+static std::regex regex_value("^\\s*([\\w\\s]+)=(.*)$", std::regex_constants::ECMAScript);
 static std::regex regex_section("^\\s*\\[([\\w\\s]+)\\]$", std::regex_constants::ECMAScript);
 static std::regex regex_feature("^\\s*\\{DisplayName=([^,]*),\\s*Value=([^\\}]*)\\}$", std::regex_constants::ECMAScript);
 
